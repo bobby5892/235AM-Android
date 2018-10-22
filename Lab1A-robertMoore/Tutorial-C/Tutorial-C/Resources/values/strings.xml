@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">HelloAndroid</string>
+ <string name="helloButtonText">Say Hello</string>
+  <string name="resetButtonText">Reset</string>
+ <string name="helloLabelText">Hello Xamarin.Android</string>
+</resources> 

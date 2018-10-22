@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="Player 1"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="100dp"
+		android:layout_height="25dp"
+		android:id="@+id/player1Label"
+		android:layout_marginLeft="31.0dp"
+		android:layout_marginTop="12.0dp" />
+	<TextView
+		android:text="Player 2"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="100dp"
+		android:layout_height="25dp"
+		android:id="@+id/player2Label"
+		android:layout_marginLeft="211.5dp"
+		android:layout_marginTop="12.0dp" />
+	<EditText
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@id/player1Label"
+		android:id="@+id/player1Score"
+		android:layout_marginLeft="31.0dp"
+		android:layout_marginTop="12.0dp" 
+		/>
+	<EditText
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:layout_below="@id/player2Label"
+		android:id="@+id/player2Score"
+		android:layout_marginLeft="211.5dp"
+		android:layout_marginTop="12.0dp" 
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		/>
+	<Space
+		android:layout_marginTop="75.0dp"
+		android:layout_width="match_parent"
+		android:id="@+id/spacerTop"
+		android:layout_height="20dp"
+		/>
+	<EditText
+		android:layout_width="100dp"
+		android:layout_height="50dp"
+		android:layout_below="@id/spacerTop"
+		android:id="@+id/displayTurnText"
+		android:layout_marginLeft="125dp"
+		android:layout_marginTop="12.0dp" 
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		/>
+	<TextView
+		android:text="'s Turn"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/labelTurn"
+		android:layout_below="@id/spacerTop"
+		android:layout_marginLeft="225.5dp"
+		android:layout_marginTop="2.0dp" />
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:layout_below="@id/displayTurnText"
+		android:id="@+id/dieImage"
+		android:layout_marginLeft="140.5dp"
+	/>
+	<TextView
+		android:text="Points for this turn"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/spacerTop"
+		android:id="@+id/pointsTurnLabel"
+		android:layout_marginTop="135.0dp"
+		android:layout_marginLeft="130.5dp"
+	/>
+	<EditText
+		android:layout_width="75dp"
+		android:layout_height="50dp"
+		android:layout_below="@id/pointsTurnLabel"
+		android:id="@+id/pointsRoundText"
+		android:layout_marginLeft="140.5dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+ 	/>
+	<Button
+		android:text="Roll Die"
+		android:layout_width="125dp"
+		android:layout_height="40dp"
+		android:layout_below="@id/pointsRoundText"
+		android:id="@+id/rollButton"
+		android:layout_marginLeft="70.5dp"
+	/>
+	<Button
+		android:text="End Turn"
+		android:layout_width="125dp"
+		android:layout_height="40dp"
+		android:layout_below="@id/pointsRoundText"
+		android:id="@+id/endTurnButton"
+		android:layout_marginLeft="220.5dp"
+		
+	/>
+	<Button
+		android:text="New Game"
+		android:layout_width="125dp"
+		android:layout_height="40dp"
+		android:layout_below="@id/pointsRoundText"
+		android:id="@+id/newGameButton"
+		android:layout_marginLeft="125.5dp"
+		android:layout_marginTop="55.5dp"
+	/>
+
+
+</RelativeLayout>
