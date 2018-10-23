@@ -39,12 +39,12 @@ namespace PigGame.Objects
         public void Roll()
         {
             Random random = new Random();
-            this.currentValue = random.Next(1, this.sides);
+            this.currentValue = random.Next(1, this.sides + 1);
         }
         public string Picture()
         {
             string fileName = "Die8Side"+ currentValue;
-            if (this.currentValue >= 8) {
+            if (this.currentValue > 8) {
                 fileName = "Die8Side1";
             }
             return fileName;

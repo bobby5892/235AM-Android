@@ -21,11 +21,13 @@ namespace PigGame.Objects
         public Die die;
         public int currentRound;
         public bool canRoll;
+        public bool gameOver;
+        public Player winner;
 
         public Game() {
             /// Lets create all the peices.
-             this.player1 = new Player() { Name = "Player 1",Score=0 };
-             this.player2 = new Player() { Name = "Player 2", Score = 0 };
+             this.player1 = new Player() { Name = "Player 1", Score=0,FinalRollComplete=false };
+             this.player2 = new Player() { Name = "Player 2", Score=0 ,FinalRollComplete=false};
 
              this.die = new Die(8);
 
@@ -33,6 +35,7 @@ namespace PigGame.Objects
 
             this.currentRound = 0;
             this.canRoll = true;
+            this.gameOver = false;
             
         }
         /// <summary>
@@ -56,7 +59,7 @@ namespace PigGame.Objects
             {
                 return "*" + player1.Name;
             }
-            return "Player1";
+            return player1.Name;
         }
         public string PlayerTwoIndicator()
         {
@@ -64,27 +67,53 @@ namespace PigGame.Objects
             {
                 return "*" + player2.Name;
             }
-            return "Player2";
+            return player2.Name;
         }
         public void EndTurn()
         {
-            // Unlock Die
-            this.canRoll = true;
-
-
-            // Swap Player && Reset Round and add score to player
-            if (currentPlayer.Name == player1.Name)
+            // Check for win
+            if(player1.Score >= 100)
             {
-                player1.Score += this.currentRound;
-                currentPlayer = player2;
+                player1.FinalRollComplete = true;
+            }
+            if(player2.Score >= 100)
+            {
+                player2.FinalRollComplete = true;
+            }
+
+            if (player1.FinalRollComplete || player2.FinalRollComplete)
+            {
+                this.gameOver = true;
+                if (player1.Score > player2.Score)
+                {
+                    this.winner = player1;
+                }
+                else
+                {
+                    this.winner = player2;
+                }
             }
             else
             {
-                player2.Score += this.currentRound;
-                currentPlayer = player1;
-            }
 
-            this.currentRound = 0;
+                // Unlock Die
+                this.canRoll = true;
+
+
+                // Swap Player && Reset Round and add score to player
+                if (currentPlayer.Name == player1.Name)
+                {
+                    player1.Score += this.currentRound;
+                    currentPlayer = player2;
+                }
+                else
+                {
+                    player2.Score += this.currentRound;
+                    currentPlayer = player1;
+                }
+
+                this.currentRound = 0;
+            }
         }
 
         /// <summary>

@@ -16,6 +16,8 @@ namespace PigGame
     {
         TextView Player1Label;
         TextView Player2Label;
+        EditText Player1Name;
+        EditText Player2Name;
         EditText Player1Score;
         EditText Player2Score;
         EditText DisplayTurnText;
@@ -48,6 +50,8 @@ namespace PigGame
             // Lets map our fields
             this.Player1Label = FindViewById<TextView>(Resource.Id.player1Label);
             this.Player2Label = FindViewById<TextView>(Resource.Id.player2Label);
+            this.Player1Name = FindViewById<EditText>(Resource.Id.player1name);
+            this.Player2Name= FindViewById<EditText>(Resource.Id.player2name);  
             this.Player1Score = FindViewById<EditText>(Resource.Id.player1Score);
             this.Player2Score = FindViewById<EditText>(Resource.Id.player2Score);
             this.DisplayTurnText = FindViewById<EditText>(Resource.Id.displayTurnText);
@@ -85,6 +89,24 @@ namespace PigGame
             // Text
             this.Player1Label.Text = this.Game.PlayerOneIndicator();
             this.Player2Label.Text = this.Game.PlayerTwoIndicator();
+            // If its ghetto grab it from Game
+            if (this.Player1Name.Text == "Player1"){
+                this.Player1Name.Text = this.Game.player1.Name;
+            }
+            else{
+                // update it
+                this.Game.player1.Name = this.Player1Name.Text;
+            }
+            if (this.Player2Name.Text == "Player2"){
+                this.Player2Name.Text = this.Game.player2.Name;
+            }
+            else
+            {
+                // update it
+                this.Game.player2.Name = this.Player2Name.Text;
+            }
+
+            this.Player2Name.Text = this.Game.player2.Name;
             this.Player1Score.Text = this.Game.player1.Score.ToString();
             this.Player2Score.Text = this.Game.player2.Score.ToString();
             this.DisplayTurnText.Text = this.Game.CurrentPlayer();
@@ -99,7 +121,13 @@ namespace PigGame
             else if (this.Game.die.Picture() == "Die8Side6") { this.DieImage.SetImageResource(Resource.Drawable.Die8Side6); }
             else if (this.Game.die.Picture() == "Die8Side7") { this.DieImage.SetImageResource(Resource.Drawable.Die8Side7); }
             else if (this.Game.die.Picture() == "Die8Side8") { this.DieImage.SetImageResource(Resource.Drawable.Die8Side8); }
-   
+
+            // Check if game over
+            if (this.Game.gameOver)
+            {
+                this.DisplayTurnText.Text = this.Game.winner.Name + " wins!";
+                this.PointsRoundText.Text = this.Game.winner.Name + " wins!";
+            }
         }
         protected override void OnSaveInstanceState(Bundle outState)
         {
