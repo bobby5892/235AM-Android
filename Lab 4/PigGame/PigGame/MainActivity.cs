@@ -23,7 +23,6 @@ namespace PigGame
         EditText DisplayTurnText;
         EditText PointsRoundText;
         ImageView DieImage;
-       
 
         Game Game;
         //Used to save state
@@ -40,13 +39,11 @@ namespace PigGame
             if (savedInstanceState != null)
              {
                  string json = savedInstanceState.GetString(DATA_KEY);
-                 if (json.Length == 0)
+                 if (json.Length != 0)
                  {
-                     Game = (Game)JsonConvert.DeserializeObject(json);
-                 }
+                     Game = JsonConvert.DeserializeObject<Game>(json);                   
+                }
              }
-           
-
             // Lets map our fields
             this.Player1Label = FindViewById<TextView>(Resource.Id.player1Label);
             this.Player2Label = FindViewById<TextView>(Resource.Id.player2Label);
@@ -131,10 +128,12 @@ namespace PigGame
         }
         protected override void OnSaveInstanceState(Bundle outState)
         {
+            // https://www.newtonsoft.com/json/help/html/PreserveObjectReferences.htm
 
-            var json = JsonConvert.SerializeObject(this.Game);
-
-
+            // https://stackoverflow.com/questions/43992407/json-net-serialize-nested-complex-dictionary-object
+            //var json = JsonConvert.SerializeObject(this.Game);
+            string json = JsonConvert.SerializeObject(this.Game, Formatting.Indented);
+         
             outState.PutString(DATA_KEY, json);
             Log.Debug(GetType().FullName, "Saving instance state");
 
