@@ -72,7 +72,7 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout-small\activity_main.axml">
+    <AndroidResource Include="Resources\layout-small-port\activity_main.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\values\colors.xml" />
@@ -149,7 +149,7 @@
     <AndroidResource Include="Resources\layout\StartFragment.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout-small\SecondScreen.axml">
+    <AndroidResource Include="Resources\layout-small-port\SecondScreen.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

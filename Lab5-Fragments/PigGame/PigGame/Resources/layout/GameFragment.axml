@@ -36,7 +36,7 @@
 			android:layout_marginTop="100.0dp"
 			android:layout_width="match_parent"
 			android:id="@+id/spacerTop"
-			android:layout_height="20dp"
+			android:layout_height="10dp"
 			/>
 		<EditText
 			android:layout_width="100dp"
@@ -44,7 +44,7 @@
 			android:layout_below="@id/spacerTop"
 			android:id="@+id/displayTurnText"
 			android:layout_marginLeft="125dp"
-			android:layout_marginTop="12.0dp"
+			android:layout_marginTop="0.0dp"
 			android:textAppearance="?android:attr/textAppearanceSmall"
 			/>
 		<TextView
@@ -55,7 +55,7 @@
 			android:id="@+id/labelTurn"
 			android:layout_below="@id/spacerTop"
 			android:layout_marginLeft="225.5dp"
-			android:layout_marginTop="30.0dp" />
+			android:layout_marginTop="10.0dp" />
 		<ImageView
 			android:src="@android:drawable/ic_menu_gallery"
 			android:layout_width="100dp"
@@ -106,7 +106,7 @@
 			android:layout_below="@id/endTurnButton"
 			android:id="@+id/newGameButton"
 			android:layout_marginLeft="125.5dp"
-			android:layout_marginTop="55.5dp"
+			android:layout_marginTop="1dp"
 		/>
 
 </RelativeLayout>

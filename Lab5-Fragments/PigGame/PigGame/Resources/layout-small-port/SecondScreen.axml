@@ -3,5 +3,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+		<fragment class="PigGame.GameFragment"
+			android:id="@+id/GameFragment"
+			android:name="PigGame.GameFragment"	
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:layout_width="match_parent"/>
 </LinearLayout>
