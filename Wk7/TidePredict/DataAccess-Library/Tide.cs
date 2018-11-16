@@ -12,7 +12,7 @@ namespace DataAccess_Library
         public int ID { get; set; }
         public string Location { get; set; }
         public string Day { get; set; }
-        public DateTime DateTime { get; set; }
+        public long DateTime { get; set; }
         public string Time { get; set; }
         public string PredictionFt { get; set; }
         /// <summary>

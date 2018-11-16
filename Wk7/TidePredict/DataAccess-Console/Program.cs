@@ -1,8 +1,4 @@
-﻿// Demo of using SQLite-net ORM
-// Brian Bird, 5/20/13
-// Converted to an exercise starter and completed
-// By Brian Bird 5/12/16
-
+﻿
 using System;
 using SQLite;
 using System.IO;
@@ -20,9 +16,8 @@ namespace DataAccess_Console
 
             // We're using a db file in the Android project's Assets folder
             currentDir = Directory.GetCurrentDirectory ();
-            // Console.WriteLine(currentDir);
-            // Was string dbPath = currentDir + @"/../DataAccess-Android/Assets/stocks.db3";
-            string dbPath = currentDir + @"/../../../../ListView/Assets/tide.db3";
+           
+            string dbPath = currentDir + @"/../../../../Android/Assets/tide.db3";
             var db = new SQLiteConnection(dbPath);
 
             // Create a Stocks table
@@ -55,9 +50,9 @@ namespace DataAccess_Console
                        // ID = pk,
                         Location = name,
                         Day = entry["day"].ToString(),
-                        DateTime = Convert.ToDateTime(entry["date"]),
+                        DateTime = Convert.ToDateTime(entry["date"]).Ticks,
                         Time = entry["time"].ToString(),
-                        //PredictionFt = entry["pred_in_ft"].ToString(),
+                        PredictionFt = entry["pred_in_ft"].ToString(),
                         TideLevel = entry["highlow"].ToString()
        
                     });
