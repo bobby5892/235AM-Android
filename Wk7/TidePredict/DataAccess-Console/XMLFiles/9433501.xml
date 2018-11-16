@@ -1,0 +1,121 @@
+
+	<datainfo>
+		<origin>NOAA/NOS/CO-OPS</origin>
+		<disclaimer>
+		Disclaimer: These data are based upon the latest information available as of the date of your request, and may differ from the published tide tables.
+		</disclaimer>
+	<datarange>Daily</datarange>
+		<producttype>Tide Prediction</producttype>
+		<stationname>REEDSPORT</stationname>
+		<state></state>
+		<stationid>9433501</stationid>
+	
+		<stationtype>Harmonic</stationtype>
+		<BeginDate>20181112 04:24</BeginDate>
+		<EndDate>20181113 23:27</EndDate>
+		
+		<dataUnits>Feet</dataUnits>
+		 
+	<Timezone>LST_LDT</Timezone>
+	<Datum>MLLW</Datum>
+	<IntervalType>High/Low</IntervalType>
+	<data>
+	
+			<item>
+				<date>2018/11/12</date>
+				<day>Mon</day>
+		
+				<time>04:24 AM</time>
+			
+				<pred>5.92</pred>
+			
+			<highlow>H</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/12</date>
+				<day>Mon</day>
+		
+				<time>09:50 AM</time>
+			
+				<pred>3.10</pred>
+			
+			<highlow>L</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/12</date>
+				<day>Mon</day>
+		
+				<time>03:33 PM</time>
+			
+				<pred>6.89</pred>
+			
+			<highlow>H</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/12</date>
+				<day>Mon</day>
+		
+				<time>10:37 PM</time>
+			
+				<pred>0.16</pred>
+			
+			<highlow>L</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/13</date>
+				<day>Tue</day>
+		
+				<time>05:15 AM</time>
+			
+				<pred>5.75</pred>
+			
+			<highlow>H</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/13</date>
+				<day>Tue</day>
+		
+				<time>10:42 AM</time>
+			
+				<pred>3.37</pred>
+			
+			<highlow>L</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/13</date>
+				<day>Tue</day>
+		
+				<time>04:17 PM</time>
+			
+				<pred>6.43</pred>
+			
+			<highlow>H</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/13</date>
+				<day>Tue</day>
+		
+				<time>11:27 PM</time>
+			
+				<pred>0.56</pred>
+			
+			<highlow>L</highlow>
+			
+			</item>
+		
+		</data>
+</datainfo>

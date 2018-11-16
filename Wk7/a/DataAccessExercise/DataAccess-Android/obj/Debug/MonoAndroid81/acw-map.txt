@@ -1,0 +1,3 @@
+DataAccess.Droid.Activity1, DataAccess-Android;md56ae1d8e1289b8cdc38767a01d43155fc.Activity1
+DataAccess.Droid.Activity1;md56ae1d8e1289b8cdc38767a01d43155fc.Activity1
+dataaccess.droid.Activity1;md56ae1d8e1289b8cdc38767a01d43155fc.Activity1

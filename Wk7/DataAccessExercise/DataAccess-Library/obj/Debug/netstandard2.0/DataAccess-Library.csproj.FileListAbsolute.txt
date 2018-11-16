@@ -1,0 +1,9 @@
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\bin\Debug\netstandard2.0\DataAccess-Library.deps.json
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\bin\Debug\netstandard2.0\DataAccess-Library.dll
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\bin\Debug\netstandard2.0\DataAccess-Library.pdb
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\obj\Debug\netstandard2.0\DataAccess-Library.csprojAssemblyReference.cache
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\obj\Debug\netstandard2.0\DataAccess-Library.csproj.CoreCompileInputs.cache
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\obj\Debug\netstandard2.0\DataAccess-Library.AssemblyInfoInputs.cache
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\obj\Debug\netstandard2.0\DataAccess-Library.AssemblyInfo.cs
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\obj\Debug\netstandard2.0\DataAccess-Library.dll
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Library\obj\Debug\netstandard2.0\DataAccess-Library.pdb

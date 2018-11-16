@@ -1,0 +1,6 @@
+C:\235AM-Android\Wk7\Stocks+WebService\DataAccess-Console\bin\Debug\DataAccessDemo.exe
+C:\235AM-Android\Wk7\Stocks+WebService\DataAccess-Console\bin\Debug\DataAccessDemo.pdb
+C:\235AM-Android\Wk7\Stocks+WebService\DataAccess-Console\obj\x86\Debug\DataAccess-Console.csproj.CoreCompileInputs.cache
+C:\235AM-Android\Wk7\Stocks+WebService\DataAccess-Console\obj\x86\Debug\DataAccessDemo.exe
+C:\235AM-Android\Wk7\Stocks+WebService\DataAccess-Console\obj\x86\Debug\DataAccessDemo.pdb
+C:\235AM-Android\Wk7\Stocks+WebService\DataAccess-Console\obj\x86\Debug\DataAccess-Console.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\235AM-Android\Wk7\Stocks+WebService\DAL\bin\Debug\DAL.dll
+C:\235AM-Android\Wk7\Stocks+WebService\DAL\bin\Debug\DAL.pdb
+C:\235AM-Android\Wk7\Stocks+WebService\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\235AM-Android\Wk7\Stocks+WebService\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\235AM-Android\Wk7\Stocks+WebService\DAL\obj\Debug\DAL.dll
+C:\235AM-Android\Wk7\Stocks+WebService\DAL\obj\Debug\DAL.pdb

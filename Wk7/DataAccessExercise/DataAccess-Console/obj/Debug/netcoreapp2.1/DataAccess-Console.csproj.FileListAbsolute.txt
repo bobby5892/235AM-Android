@@ -1,0 +1,14 @@
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\bin\Debug\netcoreapp2.1\DataAccess-Console.deps.json
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\bin\Debug\netcoreapp2.1\DataAccess-Console.runtimeconfig.json
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\bin\Debug\netcoreapp2.1\DataAccess-Console.runtimeconfig.dev.json
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\bin\Debug\netcoreapp2.1\DataAccess-Console.dll
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\bin\Debug\netcoreapp2.1\DataAccess-Console.pdb
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\bin\Debug\netcoreapp2.1\DataAccess-Library.dll
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\bin\Debug\netcoreapp2.1\DataAccess-Library.pdb
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\obj\Debug\netcoreapp2.1\DataAccess-Console.csprojAssemblyReference.cache
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\obj\Debug\netcoreapp2.1\DataAccess-Console.csproj.CoreCompileInputs.cache
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\obj\Debug\netcoreapp2.1\DataAccess-Console.AssemblyInfoInputs.cache
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\obj\Debug\netcoreapp2.1\DataAccess-Console.AssemblyInfo.cs
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\obj\Debug\netcoreapp2.1\DataAccess-Console.csproj.CopyComplete
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\obj\Debug\netcoreapp2.1\DataAccess-Console.dll
+C:\235AM-Android\Wk7\DataAccessExercise\DataAccess-Console\obj\Debug\netcoreapp2.1\DataAccess-Console.pdb

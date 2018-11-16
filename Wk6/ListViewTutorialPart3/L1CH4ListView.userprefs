@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{88FE7B91-087F-440A-A1A7-BC071A2F6FB9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BasicTable/HomeScreenActivity.cs">
+    <Files>
+      <File FileName="BasicTable/HomeScreenActivity.cs" Line="1" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.BasicTable PreferredExecutionTarget="Android.Nexus5-API23-x86_64" AndroidDeviceId-Debug="192.168.56.101:5555" HideGettingStarted="True" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
