@@ -1,0 +1,128 @@
+
+	<datainfo>
+		<origin>NOAA/NOS/CO-OPS</origin>
+		<disclaimer>
+		Disclaimer: These data are based upon the latest information available as of the date of your request, and may differ from the published tide tables.
+		</disclaimer>
+	<datarange>Daily</datarange>
+		<producttype>Tide Prediction</producttype>
+		<stationname>Gardiner</stationname>
+		<state></state>
+		<stationid>TWC0831</stationid>
+	
+		<stationtype>Subordinate</stationtype>
+		<referencedToStationName>Charleston</referencedToStationName>
+		<referencedToStationId>9432780</referencedToStationId>
+		<HeightOffsetLow>* 0.8</HeightOffsetLow>
+		<HeightOffsetHigh>* 0.88</HeightOffsetHigh>
+		<TimeOffsetLow>69</TimeOffsetLow>
+		<TimeOffsetHigh>56</TimeOffsetHigh>
+		
+		<BeginDate>20181112 04:25</BeginDate>
+		<EndDate>20181113 23:21</EndDate>
+		
+		<dataUnits>Feet</dataUnits>
+		 
+	<Timezone>LST_LDT</Timezone>
+	<Datum>MLLW</Datum>
+	<IntervalType>High/Low</IntervalType>
+	<data>
+	
+			<item>
+				<date>2018/11/12</date>
+				<day>Mon</day>
+		
+				<time>04:25 AM</time>
+			
+				<pred>5.68</pred>
+			
+			<highlow>H</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/12</date>
+				<day>Mon</day>
+		
+				<time>09:48 AM</time>
+			
+				<pred>2.96</pred>
+			
+			<highlow>L</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/12</date>
+				<day>Mon</day>
+		
+				<time>03:20 PM</time>
+			
+				<pred>6.34</pred>
+			
+			<highlow>H</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/12</date>
+				<day>Mon</day>
+		
+				<time>10:32 PM</time>
+			
+				<pred>0.28</pred>
+			
+			<highlow>L</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/13</date>
+				<day>Tue</day>
+		
+				<time>05:17 AM</time>
+			
+				<pred>5.51</pred>
+			
+			<highlow>H</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/13</date>
+				<day>Tue</day>
+		
+				<time>10:41 AM</time>
+			
+				<pred>3.16</pred>
+			
+			<highlow>L</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/13</date>
+				<day>Tue</day>
+		
+				<time>04:06 PM</time>
+			
+				<pred>5.89</pred>
+			
+			<highlow>H</highlow>
+			
+			</item>
+		
+			<item>
+				<date>2018/11/13</date>
+				<day>Tue</day>
+		
+				<time>11:21 PM</time>
+			
+				<pred>0.63</pred>
+			
+			<highlow>L</highlow>
+			
+			</item>
+		
+		</data>
+</datainfo>

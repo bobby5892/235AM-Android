@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess-Library", "DataAccess-Library\DataAccess-Library.csproj", "{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess-Console", "DataAccess-Console\DataAccess-Console.csproj", "{A62B210E-0026-49EB-8673-D70F1A4E2FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidApp", "Android\AndroidApp.csproj", "{94652F04-D5BD-465B-84FF-A3C587B1D755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}.Debug|x86.Build.0 = Debug|Any CPU
+		{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}.Release|x86.ActiveCfg = Release|Any CPU
+		{39BEFE08-60CE-48F2-B9CE-68F4D5033D44}.Release|x86.Build.0 = Release|Any CPU
+		{A62B210E-0026-49EB-8673-D70F1A4E2FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62B210E-0026-49EB-8673-D70F1A4E2FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62B210E-0026-49EB-8673-D70F1A4E2FF9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A62B210E-0026-49EB-8673-D70F1A4E2FF9}.Debug|x86.Build.0 = Debug|Any CPU
+		{A62B210E-0026-49EB-8673-D70F1A4E2FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62B210E-0026-49EB-8673-D70F1A4E2FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62B210E-0026-49EB-8673-D70F1A4E2FF9}.Release|x86.ActiveCfg = Release|Any CPU
+		{A62B210E-0026-49EB-8673-D70F1A4E2FF9}.Release|x86.Build.0 = Release|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Debug|x86.Build.0 = Debug|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Release|x86.ActiveCfg = Release|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Release|x86.Build.0 = Release|Any CPU
+		{94652F04-D5BD-465B-84FF-A3C587B1D755}.Release|x86.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DC82478-47F7-4D9E-971B-13C03818077C}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DataAccess-Android\DataAccess-Android.csproj
+	EndGlobalSection
+EndGlobal
