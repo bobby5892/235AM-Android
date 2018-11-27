@@ -22,7 +22,16 @@ namespace ComplaintDepartment
 
         public ComplaintAdapter(Context context, List<IDictionary<string,object>> data, int resource, string[] from, int[] to) : base(context,data,resource,from,to){
             this.data = data;
-
+            // Lets modify true false to something more meaningful.
+            this.data.ForEach(item => {
+                if((bool) item["Completed"] == true) {
+                    item["Completed"] = "Complaint Complete" ;
+                }
+                else
+                {
+                    item["Completed"] = "Complaint Incomplete";
+                }
+            });
             // Create a new Index
             complaintIndex = new Dictionary<string, int>();
             // For each Item in the adapater

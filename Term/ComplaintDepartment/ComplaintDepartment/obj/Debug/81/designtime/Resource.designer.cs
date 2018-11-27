@@ -2894,7 +2894,10 @@ namespace ComplaintDepartment
 			public const int activity_main = 2130837506;
 			
 			// aapt resource value: 0x7F020003
-			public const int customRow = 2130837507;
+			public const int addComplaint = 2130837507;
+			
+			// aapt resource value: 0x7F020004
+			public const int customRow = 2130837508;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -2997,6 +3000,9 @@ namespace ComplaintDepartment
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
+			
+			// aapt resource value: 0x7F020005
+			public const int viewComplaint = 2130837509;
 			
 			static Layout()
 			{

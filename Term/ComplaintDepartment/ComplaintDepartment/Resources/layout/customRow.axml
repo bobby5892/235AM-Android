@@ -6,20 +6,20 @@
         android:id="@+id/textViewFirstThing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="10sp"
         android:paddingLeft="5dp" />
     <TextView
         android:id="@+id/textViewSecondThing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textViewFirstThing"
-        android:textSize="35sp"
+        android:textSize="12sp"
         android:paddingLeft="5dp" />
 	 <TextView
         android:id="@+id/textViewThirdThing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textViewSecondThing"
-        android:textSize="35sp"
+        android:textSize="7sp"
         android:paddingLeft="5dp" />
 </RelativeLayout>
