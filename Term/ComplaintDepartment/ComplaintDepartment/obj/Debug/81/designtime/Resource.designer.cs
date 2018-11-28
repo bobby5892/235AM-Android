@@ -2369,6 +2369,9 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
+			// aapt resource value: 0x7F010007
+			public const int AddComplaintButton = 2130771975;
+			
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
@@ -2377,6 +2380,9 @@ namespace ComplaintDepartment
 			
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
+			
+			// aapt resource value: 0x7F010008
+			public const int backButton = 2130771976;
 			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
@@ -2408,6 +2414,9 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
 			
+			// aapt resource value: 0x7F010006
+			public const int contentsEditText = 2130771974;
+			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
 			
@@ -2422,6 +2431,9 @@ namespace ComplaintDepartment
 			
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
+			
+			// aapt resource value: 0x7F010015
+			public const int DeleteComplaintButton = 2130771989;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -2485,6 +2497,9 @@ namespace ComplaintDepartment
 			
 			// aapt resource value: 0x7F0C003B
 			public const int item_touch_helper_previous_elevation = 2131492923;
+			
+			// aapt resource value: 0x7F010005
+			public const int labelComplaint = 2130771973;
 			
 			// aapt resource value: 0x7F0C003C
 			public const int largeLabel = 2131492924;
@@ -2660,6 +2675,12 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
+			// aapt resource value: 0x7F010014
+			public const int statusComplete = 2130771988;
+			
+			// aapt resource value: 0x7F010013
+			public const int statusSwitch = 2130771987;
+			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
 			
@@ -2693,20 +2714,23 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F010005
-			public const int textViewFirstThing = 2130771973;
+			// aapt resource value: 0x7F010009
+			public const int textViewFirstThing = 2130771977;
 			
-			// aapt resource value: 0x7F010006
-			public const int textViewSecondThing = 2130771974;
+			// aapt resource value: 0x7F010010
+			public const int textViewSecondThing = 2130771984;
 			
-			// aapt resource value: 0x7F010007
-			public const int textViewThirdThing = 2130771975;
+			// aapt resource value: 0x7F010011
+			public const int textViewThirdThing = 2130771985;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
+			
+			// aapt resource value: 0x7F010012
+			public const int timeStamp = 2130771986;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int title = 2131492890;

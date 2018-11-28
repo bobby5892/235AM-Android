@@ -31,9 +31,8 @@
 	<EditText
 		android:inputType="textMultiLine"
 		android:layout_width="match_parent"
-		android:layout_height="200dp"
+		android:layout_height="150dp"
 		android:id="@+id/contentsEditText" />
-
 	<Button
 		android:text="Delete Complaint"
 		android:layout_width="match_parent"

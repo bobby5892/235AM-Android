@@ -59,6 +59,7 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddComplaint.cs" />
     <Compile Include="ComplaintAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Models\Comment.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLManager.cs" />
     <Compile Include="SyncManager.cs" />
+    <Compile Include="ViewComplaint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

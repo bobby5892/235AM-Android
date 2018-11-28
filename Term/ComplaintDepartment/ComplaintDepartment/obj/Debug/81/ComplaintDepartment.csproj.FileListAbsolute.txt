@@ -90,3 +90,5 @@ C:\code\235AM-Android\Term\ComplaintDepartment\ComplaintDepartment\obj\Debug\81\
 C:\code\235AM-Android\Term\ComplaintDepartment\ComplaintDepartment\obj\Debug\81\android\assets\System.Xml.Linq.pdb
 C:\code\235AM-Android\Term\ComplaintDepartment\ComplaintDepartment\obj\Debug\81\android\assets\System.Xml.pdb
 C:\code\235AM-Android\Term\ComplaintDepartment\ComplaintDepartment\obj\Debug\81\res\layout\customrow.xml
+C:\code\235AM-Android\Term\ComplaintDepartment\ComplaintDepartment\obj\Debug\81\res\layout\addcomplaint.xml
+C:\code\235AM-Android\Term\ComplaintDepartment\ComplaintDepartment\obj\Debug\81\res\layout\viewcomplaint.xml

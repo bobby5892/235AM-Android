@@ -26,6 +26,7 @@ namespace ComplaintDepartment.Repositories
             SyncManager syncManager = new SyncManager();
             this.SyncManage = syncManager;
         }
+        /* This should be turned into an async function*/
         public bool Sync()
         {
             if (this.SyncManage.HasInternet)
