@@ -37,6 +37,7 @@ namespace ComplaintDepartment
 
             addComplaintButton.Click += delegate
             {
+                complaintRepo.AddComplaintOnline(textMultiLine.Text);
                 StartActivity(new Intent(this, typeof(MainActivity)));
             };
 

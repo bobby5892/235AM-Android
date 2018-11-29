@@ -15,7 +15,7 @@ namespace ComplaintDepartment.Models
     [Table("Complaints")]
     public class Complaint
     {
-        [PrimaryKey, AutoIncrement]
+        [PrimaryKey]
         public int ID { get; set; }
         public DateTime Create { get; set; }
         public string Contents { get; set; }

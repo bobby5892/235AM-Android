@@ -75,9 +75,20 @@ namespace ComplaintDepartment.Repositories
         }
         public bool AddComplaintOnline(string contents)
         {
-            string json = this.SyncManage.PostWeb("/AddComplaint", ("contents=" + contents));
+            string json = this.SyncManage.PostWeb("/Complaint/AddComplaint", ("contents=" + contents));
             this.Sync();
             if(json.Length > 2) { return true; }
+            return false;
+        }
+        public bool DeleteComplaintOnline(Complaint complaint)
+        {
+            if(complaint == null)
+            {
+                return false;
+            }
+            string json = this.SyncManage.PostWeb("/Complaint/DeleteComplaintByID", ("id=" + complaint.ID));
+            this.Sync();
+            if (json.Length > 2) { return true; }
             return false;
         }
 

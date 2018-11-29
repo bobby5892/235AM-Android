@@ -16,19 +16,21 @@ namespace ComplaintDepartment
     [Activity(Label = "ViewComplaint")]
     public class ViewComplaint : Activity
     {
+        public int ComplaintID { get; set; }
+        public CommentRepo CommentRepo { get; set; }
+        public ComplaintRepo ComplaintRepo { get; set; }
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.viewComplaint);
             //Data
             SQLManager sqlManager = new SQLManager();
-            CommentRepo commentRepo = new CommentRepo(sqlManager.Db);
-            ComplaintRepo complaintRepo = new ComplaintRepo(sqlManager.Db);
-
+            CommentRepo = new CommentRepo(sqlManager.Db);
+            ComplaintRepo = new ComplaintRepo(sqlManager.Db);
             // Sync Between Website  - should be turned into async
-            Task.Run(() => complaintRepo.Sync());
-            Task.Run(() => commentRepo.Sync());
+           // Task.Run(() => ComplaintRepo.Sync());
+           // Task.Run(() => CommentRepo.Sync());
 
             var timestampLabel = FindViewById<TextView>(Resource.Id.timeStamp);
             var completedStatusLabel = FindViewById<TextView>(Resource.Id.timeStamp);
@@ -37,8 +39,28 @@ namespace ComplaintDepartment
             var deleteComplaintbutton = FindViewById<Button>(Resource.Id.DeleteComplaintButton);
             var goBackButton = FindViewById<Button>(Resource.Id.backButton);
 
+            int idComplaint = Intent.GetIntExtra("ID",0);
+            this.ComplaintID = idComplaint;
+            var complaint = ComplaintRepo.Complaints.First(c => c.ID == idComplaint) ?? null;
+
+            // Now fill it in
+            timestampLabel.Text = complaint.Create.ToShortDateString();
+         
+            if (complaint.Completed)
+            {
+                statusSwitch.Text = "Completed";
+            }
+            else
+            {
+                statusSwitch.Text = "InComplete";
+            }
+            complaintContentsTextbox.Text = complaint.Contents;
+         
             deleteComplaintbutton.Click += delegate
             {
+               
+                ComplaintRepo.DeleteComplaintOnline(ComplaintRepo.Complaints.First(c => c.ID == idComplaint));
+              
                 StartActivity(new Intent(this, typeof(MainActivity)));
             };
             goBackButton.Click += delegate
@@ -47,7 +69,8 @@ namespace ComplaintDepartment
             };
             statusSwitch.Click += delegate
              {
-
+                 // Needs Coded
+                 StartActivity(new Intent(this, typeof(MainActivity)));
              };
         }
     }

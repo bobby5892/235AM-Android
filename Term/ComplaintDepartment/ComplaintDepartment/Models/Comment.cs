@@ -15,7 +15,7 @@ namespace ComplaintDepartment.Models
     [Table("Comments")]
     public class Comment
     {
-        [PrimaryKey, AutoIncrement]
+        [PrimaryKey]
         public int ID { get; set; }
         public int ComplaintID { get; set; }
         public string Contents { get; set; }

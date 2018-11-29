@@ -10,6 +10,7 @@ using Java.IO;
 using System.Linq;
 using System.Collections.Generic;
 using Android.Content;
+using ComplaintDepartment.Models;
 
 namespace ComplaintDepartment
 {
@@ -68,7 +69,11 @@ namespace ComplaintDepartment
             this.ListViewer.FastScrollEnabled = true;
             this.ListViewer.ItemClick += (sender, e) =>
             {
-                // Lets add the click stuff here
+            // Lets add the click stuff here
+            var viewIntent = new Intent(this, typeof(ViewComplaint));
+                int complaintID = (int)complaintsDictionary[e.Position]["ID"];
+                viewIntent.PutExtra("ID", complaintID);
+                StartActivity(viewIntent);
             };
 
         }       
