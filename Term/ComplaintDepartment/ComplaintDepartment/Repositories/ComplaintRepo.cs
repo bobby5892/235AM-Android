@@ -91,6 +91,17 @@ namespace ComplaintDepartment.Repositories
             if (json.Length > 2) { return true; }
             return false;
         }
-
+        public bool ToggleComplete(Complaint complaint)
+        {
+            if (complaint == null)
+            {
+                return false;
+            }
+            string json = this.SyncManage.PostWeb("/Complaint/ToggleComplete", ("id=" + complaint.ID));
+            this.Sync();
+            if (json.Length > 2) { return true; }
+            return false;
+        }
+        
     }
 }

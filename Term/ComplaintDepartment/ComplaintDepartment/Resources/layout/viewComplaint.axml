@@ -10,12 +10,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/timeStamp" />
-	<TextView
-		android:text="Completed"
-		android:textAppearance="?android:attr/textAppearanceSmall"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/statusSwitch" />
+	
 	<Switch
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"

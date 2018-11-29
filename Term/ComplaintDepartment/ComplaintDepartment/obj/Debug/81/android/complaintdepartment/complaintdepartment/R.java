@@ -2949,7 +2949,7 @@ containing a value of this type.
         public static final int ALT=0x7f080032;
         public static final int AddComplaintButton=0x7f080090;
         public static final int CTRL=0x7f080033;
-        public static final int DeleteComplaintButton=0x7f0800ba;
+        public static final int DeleteComplaintButton=0x7f0800b9;
         public static final int FUNCTION=0x7f080034;
         public static final int META=0x7f080035;
         public static final int SHIFT=0x7f080036;
@@ -3040,7 +3040,7 @@ containing a value of this type.
         public static final int listMode=0x7f08001d;
         public static final int listViewer=0x7f08008c;
         public static final int list_item=0x7f080061;
-        public static final int masked=0x7f0800bc;
+        public static final int masked=0x7f0800bb;
         public static final int media_actions=0x7f0800a9;
         public static final int message=0x7f0800b6;
         public static final int middle=0x7f080031;
@@ -3098,8 +3098,7 @@ containing a value of this type.
         public static final int src_in=0x7f08002b;
         public static final int src_over=0x7f08002c;
         public static final int start=0x7f08004b;
-        public static final int statusComplete=0x7f0800b9;
-        public static final int statusSwitch=0x7f0800b8;
+        public static final int statusComplete=0x7f0800b8;
         public static final int status_bar_latest_event_content=0x7f0800a8;
         public static final int submenuarrow=0x7f080076;
         public static final int submit_area=0x7f080087;
@@ -3132,7 +3131,7 @@ containing a value of this type.
         public static final int up=0x7f080009;
         public static final int useLogo=0x7f080026;
         public static final int view_offset_helper=0x7f080016;
-        public static final int visible=0x7f0800bb;
+        public static final int visible=0x7f0800ba;
         public static final int withText=0x7f08003c;
         public static final int wrap_content=0x7f08002e;
     }

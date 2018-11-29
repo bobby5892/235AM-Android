@@ -2333,8 +2333,8 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7f080033
 			public const int CTRL = 2131230771;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int DeleteComplaintButton = 2131230906;
+			// aapt resource value: 0x7f0800b9
+			public const int DeleteComplaintButton = 2131230905;
 			
 			// aapt resource value: 0x7f080034
 			public const int FUNCTION = 2131230772;
@@ -2606,8 +2606,8 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int masked = 2131230908;
+			// aapt resource value: 0x7f0800bb
+			public const int masked = 2131230907;
 			
 			// aapt resource value: 0x7f0800a9
 			public const int media_actions = 2131230889;
@@ -2780,11 +2780,8 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7f08004b
 			public const int start = 2131230795;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int statusComplete = 2131230905;
-			
 			// aapt resource value: 0x7f0800b8
-			public const int statusSwitch = 2131230904;
+			public const int statusComplete = 2131230904;
 			
 			// aapt resource value: 0x7f0800a8
 			public const int status_bar_latest_event_content = 2131230888;
@@ -2882,8 +2879,8 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int visible = 2131230907;
+			// aapt resource value: 0x7f0800ba
+			public const int visible = 2131230906;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;

@@ -2432,8 +2432,8 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
 			
-			// aapt resource value: 0x7F010015
-			public const int DeleteComplaintButton = 2130771989;
+			// aapt resource value: 0x7F010014
+			public const int DeleteComplaintButton = 2130771988;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -2675,11 +2675,8 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
-			// aapt resource value: 0x7F010014
-			public const int statusComplete = 2130771988;
-			
 			// aapt resource value: 0x7F010013
-			public const int statusSwitch = 2130771987;
+			public const int statusComplete = 2130771987;
 			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;

@@ -33,7 +33,7 @@ namespace ComplaintDepartment
            // Task.Run(() => CommentRepo.Sync());
 
             var timestampLabel = FindViewById<TextView>(Resource.Id.timeStamp);
-            var completedStatusLabel = FindViewById<TextView>(Resource.Id.timeStamp);
+          
             var statusSwitch = FindViewById<Switch>(Resource.Id.statusComplete);
             var complaintContentsTextbox = FindViewById<EditText>(Resource.Id.contentsEditText);
             var deleteComplaintbutton = FindViewById<Button>(Resource.Id.DeleteComplaintButton);
@@ -46,13 +46,16 @@ namespace ComplaintDepartment
             // Now fill it in
             timestampLabel.Text = complaint.Create.ToShortDateString();
          
+            
             if (complaint.Completed)
             {
                 statusSwitch.Text = "Completed";
+                statusSwitch.Checked = true;
             }
             else
             {
                 statusSwitch.Text = "InComplete";
+                statusSwitch.Checked = false;
             }
             complaintContentsTextbox.Text = complaint.Contents;
          
@@ -69,8 +72,16 @@ namespace ComplaintDepartment
             };
             statusSwitch.Click += delegate
              {
-                 // Needs Coded
-                 StartActivity(new Intent(this, typeof(MainActivity)));
+                 ComplaintRepo.ToggleComplete(ComplaintRepo.Complaints.First(c => c.ID == idComplaint));
+                 if(statusSwitch.Text == "Completed")
+                 {
+                     statusSwitch.Text = "Incomplete";
+                 }
+                 else
+                 {
+                     statusSwitch.Text = "Completed";
+                 }
+                // StartActivity(new Intent(this, typeof(MainActivity)));
              };
         }
     }
