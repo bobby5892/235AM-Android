@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="TimeStamp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/timeStamp" />
+	<Switch
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/statusComplete" />
+	<TextView
+		android:text="Complaint"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/labelComplaint" />
+	<EditText
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:layout_height="150dp"
+		android:id="@+id/contentsEditText" />
+	<Button
+		android:text="Delete Complaint"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/DeleteComplaintButton" />
+	<Button
+		android:text="Go Back"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/backButton" />
+
+</LinearLayout>

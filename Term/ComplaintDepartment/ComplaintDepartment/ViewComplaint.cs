@@ -49,12 +49,12 @@ namespace ComplaintDepartment
             
             if (complaint.Completed)
             {
-                statusSwitch.Text = "Completed";
+                
                 statusSwitch.Checked = true;
             }
             else
             {
-                statusSwitch.Text = "InComplete";
+                
                 statusSwitch.Checked = false;
             }
             complaintContentsTextbox.Text = complaint.Contents;

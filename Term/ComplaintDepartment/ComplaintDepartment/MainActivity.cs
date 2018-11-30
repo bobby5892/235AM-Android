@@ -31,8 +31,13 @@ namespace ComplaintDepartment
             ComplaintRepo complaintRepo = new ComplaintRepo(sqlManager.Db);
 
             // Sync Between Website  - should be turned into async
-            Task.Run(() => complaintRepo.Sync());
-            Task.Run(() => commentRepo.Sync());
+            bool syncComplaint = complaintRepo.Sync();
+            bool syncComment = commentRepo.Sync();
+
+            if(syncComplaint == false) { 
+                Toast.MakeText(this, "No Internet Connection", ToastLength.Long).Show();
+            }
+            
 
             // Bind Items
             this.ListViewer = FindViewById<ListView>(Resource.Id.listViewer);

@@ -4,7 +4,7 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
+  <application android:allowBackup="true" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:icon="@mipmap/logo" android:name="android.app.Application" android:debuggable="true">
     <activity android:label="AddComplaint" android:name="md5e68c175ce870c4efa0ba7e0fd13af43b.AddComplaint" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5e68c175ce870c4efa0ba7e0fd13af43b.MainActivity">
       <intent-filter>

@@ -51,8 +51,9 @@ namespace ComplaintDepartment.Repositories
                         this.AddComplaintLocal(complaint);
                     }
                 });
-               
+                return true;  
             }
+           
             return false;
         }
         public bool AddComplaintLocal(Complaint complaint)

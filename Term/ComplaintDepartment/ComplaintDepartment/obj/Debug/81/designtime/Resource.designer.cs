@@ -3041,11 +3041,14 @@ namespace ComplaintDepartment
 			// aapt resource value: 0x7F030002
 			public const int ic_launcher = 2130903042;
 			
-			// aapt resource value: 0x7F030004
-			public const int ic_launcher_foreground = 2130903044;
+			// aapt resource value: 0x7F030005
+			public const int ic_launcher_foreground = 2130903045;
 			
 			// aapt resource value: 0x7F030003
 			public const int ic_launcher_round = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int logo = 2130903044;
 			
 			static Mipmap()
 			{
